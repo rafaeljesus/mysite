@@ -1,0 +1,24 @@
+{
+  "name": "mysite",
+  "version": "0.0.1",
+  "description": "Rafael Jesus Web Site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaeljesus/mysite.git"
+  },
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "express-load": "1.1.14",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "logfmt": "~1.1.2"
+  }
+}
