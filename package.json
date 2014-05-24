@@ -20,6 +20,13 @@
     "debug": "~0.7.4",
     "ejs": "~0.8.5",
     "logfmt": "~1.1.2",
-    "nodemailer": "~0.6.5"
+    "nodemailer": "~0.6.5",
+    "gulp-minify-css": "~0.3.4",
+    "gulp-uglify": "~0.3.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-imagemin": "~0.5.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2"
   }
 }
