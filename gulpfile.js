@@ -33,5 +33,4 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('public/build/css'))
 });*/
 
-
 gulp.task('default', ['scripts']);
