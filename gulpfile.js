@@ -20,17 +20,18 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('public/build/js'));
 });
 
-/**var styles = [
+var styles = [
   'public/stylesheets/flat-ui/bootstrap/css/bootstrap.css'
+  , 'public/stylesheets/flat-ui/css/flat-ui.css'
   , 'public/common-files/css/icon-font.css'
   , 'public/stylesheets/css/style.css'
 ];
 
 gulp.task('styles', function() {
   gulp.src(styles)
-    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(minifyCSS({ keepBreaks:true }))
     .pipe(concat('app.min.css'))
     .pipe(gulp.dest('public/build/css'))
-});*/
+});
 
-gulp.task('default', ['scripts']);
+gulp.task('default', ['scripts', 'styles']);
