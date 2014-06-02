@@ -4,6 +4,7 @@ var express = require('express')
 , logfmt = require('logfmt')
 , favicon = require('static-favicon')
 , cookieParser = require('cookie-parser')
+, compress = require('compression')
 , bodyParser = require('body-parser')
 , app = express();
 
@@ -12,6 +13,7 @@ app.set('view engine', 'ejs');
 
 app.use(logfmt.requestLogger());
 app.use(favicon());
+app.use(compress());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());

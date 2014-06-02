@@ -6,7 +6,9 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
         <link rel="stylesheet" href="build/css/app.min.css">
+
         <!--<link rel="stylesheet" href="stylesheets/flat-ui/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="stylesheets/flat-ui/css/flat-ui.css">
         <link rel="stylesheet" href="common-files/css/icon-font.css">
@@ -158,29 +160,34 @@
       	      <div class="col-xs-8">
                 <form role="form">
                 	<div class="form-group">
+                    <h5 class="pull-left">Name</h5>
                 		<input class="form-control input-lg" id="name" min="1" max="40" type="text" placeholder="Full Name">
                   </div>
                   <div class="form-group">
+                    <h5 class="pull-left">Email</h5>
                     <input class="form-control input-lg" id="email" type="email" placeholder="Email Address">
                   </div>
                   <div class="form-group">
+                    <h5 class="pull-left">Message</h5>
                     <textarea class="form-control input-lg" id="message" placeholder="Your Message" rows="15" cols="98"></textarea>
                   </div>
                   <br>
                   <div class="form-group">
-                    <input class="btn btn-large send-email btn-primary" type="submit" value="Send Me a Message">
+                    <button class="btn btn-large send-email btn-primary pull-left">
+                      <span class="fui-mail"></span>
+                    </button>
                   </div>
                 </form>
               </div>
               <div class="col-xs-4">
-              	<address>
-                  <strong>Find Me</strong><br>
-                  São José dos Campos, Brazil.<br>
-                  <abbr title="Phone">P:</abbr> (+55) 12 98150-0105
-                </address>
                 <address>
                   <strong>Rafael da Silva Batista Jesus</strong><br>
                   <a href="mailto:#">rafaelljesus86@gmail.com</a>
+                </address>
+              	<address>
+                  <strong>Find Me</strong><br>
+                  São José dos Campos, Brazil.<br>
+                  <h5 style="color: #1abc9c;"><abbr title="Phone">P:</abbr> (+55) 12 98150-0105</h5>
                 </address>
               </div>
             </section>

@@ -1,4 +1,4 @@
-$(function(){
+(function(){
 
   var onSendEmail = function(){
     $('.send-email').click(function(e){
@@ -41,4 +41,4 @@ $(function(){
 
   onSendEmail();
 
-});
+})();
