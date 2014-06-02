@@ -2208,9 +2208,10 @@ footer p{font-size:15px;line-height:20px;margin-bottom:10px}
 .fui-ovi:before{content:"\e05b"}
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 .dropdown-arrow-inverse{border-bottom-color:#34495e!important;border-top-color:#34495e!important}
+form h5{float:left;color:#7f8c8d}
 body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px}
 .sent-alert{background:#f1f1f1;font-size:40px;padding-top:40px;padding-bottom:40px;border-radius:12px}
-.send-email{font-size:23px!important;padding:14px 18px!important;width:300px!important}
+.send-email{font-size:40px!important;padding:18px 18px!important;width:100%}
 .hero-unit h1{font-size:53px!important;font-family:proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif!important;line-height:54px!important;font-weight:700!important;letter-spacing:-2px!important;margin-bottom:35px!important}
 .avatar{margin-top:5%}
 .progress{height:18px!important}
