@@ -2488,7 +2488,7 @@ section *{z-index:2}
 .footer-3 .address{line-height:1.6}
 @media (max-width:767px){.footer-3 .row>[class*=col-sm-]{margin-top:30px}
 .footer-3 .row>[class*=col-sm-]:first-child{margin-top:0}}
-.header-10-sub .background{background-image:url(../../images/codeguera.png)}
+.header-10-sub .background{background-image:url(../../images/code.png)}
 .header-10{background-color:#1b1f23}
 .header-10 .btn.active,.header-10 .btn:focus,.header-10 .btn:hover{background-color:#2ecc71}
 .content-7,.content-8{padding-top:200px;padding-bottom:200px}
